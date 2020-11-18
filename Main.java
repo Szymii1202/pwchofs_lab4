@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static final String url = "jdbc:mysql://db:3306/";;
+    static final String url = "jdbc:mysql://db:3306/";
     static final String db_name = "database";
     static final String userPass = "?user=sd&password=123456";
     static final String userName = "sd";
