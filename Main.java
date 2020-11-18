@@ -19,6 +19,8 @@ public class Main {
      */
 
     public static Scanner scan = new Scanner(System.in);
+
+
     public static void main(String[] args) throws SQLException, InterruptedException {
 
         System.out.println("Poczekaj 10 sekund, bazka się ładuje.");
@@ -35,6 +37,8 @@ public class Main {
                 + "PRIMARY KEY (ID))";
 
         Connection conn = null;
+
+        Thread.sleep(10000);
 
         try
         {
