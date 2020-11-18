@@ -31,6 +31,8 @@ public class Main {
     
     public static void main(String[] args) throws SQLException, InterruptedException {
         
+        System.out.println("Poczekaj 10 sekund, bazka się ładuje.");
+        
         Thread.sleep(10000);
         
         int selection;
