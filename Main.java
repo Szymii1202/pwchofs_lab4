@@ -31,6 +31,8 @@ public class Main {
     
     public static void main(String[] args) throws SQLException, InterruptedException {
         
+        Thread.sleep(10000);
+        
         int selection;
         String nazwa_tabeli = "people";
         long milis = 2000;
