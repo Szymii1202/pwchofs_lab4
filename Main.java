@@ -53,6 +53,7 @@ public class Main {
         catch (ClassNotFoundException | SQLException ex)
         {
             System.err.println ("Cannot connect to database server");
+            return;
         }
 
         while(true) {
